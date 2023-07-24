@@ -1,12 +1,12 @@
-function SEARCHBOOK(){
+function searchBook(){
 
 
     
-    window.location='SEARCH BOOK.HTML'
+    window.location='search-book.html'
 
 }  
 
-function BookStore(){
+function bookStore(){
 
     books={  
      
@@ -28,7 +28,7 @@ function BookStore(){
 
 }
     
-function BOOKSFIND(){
+function booksFind(){
 
     bname=z1.value
     if (bname in localStorage) {
